@@ -1,0 +1,38 @@
+#container
+{
+  width: 50%;
+  height:100px;
+  
+  background: lightblue;
+  font-size: 25pt;
+  display: flex;
+  border-radius: 5px;
+  margin: auto;
+  justify-content: space-evenly;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-align: center;
+  
+  flex-wrap: wrap;  
+}
+
+div
+{
+  border: 2pt solid pink
+}
+
+#container > div 
+{
+  width: 75px;
+  height: 75px;
+}
+
+#container > div:nth-child(odd)
+{
+  background-color: lightgreen;  
+}
+#container > div:nth-child(even)
+{
+  background-color: white;  
+}
+
